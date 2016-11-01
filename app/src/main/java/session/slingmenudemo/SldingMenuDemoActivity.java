@@ -27,7 +27,10 @@ public class SldingMenuDemoActivity extends SlidingFragmentActivity {
 		t.commit();
 
 
+
+		//获取SlidingMenu对象
 		SlidingMenu sm = getSlidingMenu();
+		//设置阴影宽度
 		sm.setShadowWidthRes(R.dimen.shadow_width);
 		//sm.setShadowDrawable(R.drawable.shadow);
 		sm.setBehindOffsetRes(R.dimen.slidingmenu_offset);
